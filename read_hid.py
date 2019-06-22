@@ -56,7 +56,7 @@ def readBarcode(devicePath):
                     return(x)
 
 while True:
-    temp = readBarcode("/dev/input/event2")
+    temp = readBarcode("/dev/input/event0")
     print temp
     datetimeWrite = (time.strftime("%Y-%m-%d ") + time.strftime("%H:%M:%S"))
     print datetimeWrite
