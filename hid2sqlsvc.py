@@ -28,7 +28,7 @@ capscodes = {
 }
 
 # Variables for mysql
-db = MySQLdb.connect(host="localhost", user="root", passwd="", db="barcode_database")
+db = MySQLdb.connect(host="localhost", user="root", passwd="password", db="barcode_database")
 cur = db.cursor()
 
 def readBarcode(devicePath):
